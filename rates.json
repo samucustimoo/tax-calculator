@@ -1,0 +1,2241 @@
+{
+ "version": "2026-07-17.3",
+ "lastVerified": "2026-07-17",
+ "sources": [
+  {
+   "name": "VATupdate - Global VAT Rates by Country (2026)",
+   "url": "https://www.vatupdate.com/2026/01/05/global-vat-rates-by-country-2026-standard-and-reduced-rates/"
+  },
+  {
+   "name": "PwC Worldwide Tax Summaries - VAT rates",
+   "url": "https://taxsummaries.pwc.com/quick-charts/value-added-tax-vat-rates"
+  },
+  {
+   "name": "EY Worldwide VAT, GST and Sales Tax Guide 2026",
+   "url": "https://www.ey.com/en_gl/technical/tax-guides/worldwide-vat-gst-and-sales-tax-guide"
+  },
+  {
+   "name": "Zonos - Country de minimis values",
+   "url": "https://zonos.com/docs/guides/de-minimis-values"
+  },
+  {
+   "name": "Avalara - De minimis threshold table",
+   "url": "https://www.avalara.com/us/en/learn/cross-border-resources/de-minimis-threshold-table.html"
+  },
+  {
+   "name": "White House / CBP - US de minimis suspension",
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/02/continuing-the-suspension-of-duty-free-de-minimis-treatment-for-all-countries/"
+  },
+  {
+   "name": "EU trade relations with Pakistan (GSP+)",
+   "url": "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/pakistan_en"
+  },
+  {
+   "name": "EU GSP system updates 2026-2028",
+   "url": "https://trade.ec.europa.eu/access-to-markets/en/news/gsp-system-updates-period-2026-2028"
+  },
+  {
+   "name": "TDAP - UK DCTS as applicable to Pakistan (Feb 2026)",
+   "url": "https://tdap.gov.pk/wp-content/uploads/2026/02/13.-UK-DCTS_Rev-7.pdf"
+  },
+  {
+   "name": "US tariffs on clothing imports 2026 (MFN + Section 122)",
+   "url": "https://www.tariffstool.com/guides/tariff-on-clothing-imports-2026"
+  }
+ ],
+ "dutyCategories": [
+  {
+   "id": "apparel",
+   "name": "Apparel & textiles",
+   "rate": 12,
+   "range": [
+    8,
+    20
+   ],
+   "note": "Clothing is among the highest-tariffed goods; US 8-32% by fabric, EU ~12%"
+  },
+  {
+   "id": "footwear",
+   "name": "Footwear",
+   "rate": 15,
+   "range": [
+    8,
+    37
+   ],
+   "note": "US rates up to 37.5% for some sneakers; EU ~8-17%"
+  },
+  {
+   "id": "electronics",
+   "name": "Electronics & IT",
+   "rate": 2,
+   "range": [
+    0,
+    10
+   ],
+   "note": "Often 0% under WTO ITA in signatory countries; check origin surcharges"
+  },
+  {
+   "id": "toys",
+   "name": "Toys & games",
+   "rate": 4,
+   "range": [
+    0,
+    10
+   ],
+   "note": "US 0%, EU ~4.7%"
+  },
+  {
+   "id": "jewelry",
+   "name": "Jewelry & watches",
+   "rate": 6,
+   "range": [
+    0,
+    14
+   ],
+   "note": "Varies widely by material"
+  },
+  {
+   "id": "furniture",
+   "name": "Furniture",
+   "rate": 4,
+   "range": [
+    0,
+    10
+   ],
+   "note": "US mostly 0%, EU ~2.7%"
+  },
+  {
+   "id": "cosmetics",
+   "name": "Cosmetics & beauty",
+   "rate": 5,
+   "range": [
+    0,
+    15
+   ],
+   "note": ""
+  },
+  {
+   "id": "sports",
+   "name": "Sports equipment",
+   "rate": 5,
+   "range": [
+    0,
+    12
+   ],
+   "note": ""
+  },
+  {
+   "id": "books",
+   "name": "Books & print",
+   "rate": 0,
+   "range": [
+    0,
+    5
+   ],
+   "note": "Duty-free almost everywhere"
+  },
+  {
+   "id": "food",
+   "name": "Food & beverages",
+   "rate": 15,
+   "range": [
+    5,
+    35
+   ],
+   "note": "Highly variable; quotas and excise may apply"
+  },
+  {
+   "id": "leather",
+   "name": "Leather goods & bags",
+   "rate": 8,
+   "range": [
+    4,
+    20
+   ],
+   "note": ""
+  },
+  {
+   "id": "other",
+   "name": "General / other goods",
+   "rate": 7,
+   "range": [
+    0,
+    15
+   ],
+   "note": "Global average applied tariff on manufactures"
+  }
+ ],
+ "countries": [
+  {
+   "name": "Afghanistan",
+   "region": "Asia & Oceania",
+   "taxName": "None",
+   "standardRate": 0,
+   "reducedRates": [],
+   "estimate": false,
+   "note": "No VAT implemented.",
+   "valuation": "cif"
+  },
+  {
+   "name": "Albania",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 20.0,
+   "reducedRates": [
+    10.0,
+    6.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Algeria",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 19.0,
+   "reducedRates": [
+    9.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Andorra",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 4.5,
+   "reducedRates": [
+    2.5,
+    1.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Angola",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 14.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Argentina",
+   "region": "Americas",
+   "taxName": "VAT",
+   "standardRate": 21.0,
+   "reducedRates": [
+    10.5
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Armenia",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 20.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Australia",
+   "region": "Asia & Oceania",
+   "taxName": "GST",
+   "standardRate": 10.0,
+   "reducedRates": [],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 650,
+    "currency": "USD",
+    "note": "AUD 1,000 customs de minimis; GST collected at sale for low-value imports"
+   },
+   "valuation": "fob-duty-cif-tax"
+  },
+  {
+   "name": "Austria",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 20.0,
+   "reducedRates": [
+    13.0,
+    10.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Azerbaijan",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 18.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Bahrain",
+   "region": "Middle East",
+   "taxName": "VAT",
+   "standardRate": 10.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Bangladesh",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 15.0,
+   "reducedRates": [
+    10.0,
+    7.5,
+    5.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Barbados",
+   "region": "Americas",
+   "taxName": "VAT",
+   "standardRate": 17.5,
+   "reducedRates": [
+    10.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Belarus",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 20.0,
+   "reducedRates": [
+    10.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Belgium",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 21.0,
+   "reducedRates": [
+    12.0,
+    6.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Belize",
+   "region": "Americas",
+   "taxName": "GST",
+   "standardRate": 12.5,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Bhutan",
+   "region": "Asia & Oceania",
+   "taxName": "GST",
+   "standardRate": 7.0,
+   "reducedRates": [],
+   "estimate": false,
+   "note": "GST introduced 2025, effective Jan 1, 2026",
+   "valuation": "cif"
+  },
+  {
+   "name": "Bolivia",
+   "region": "Americas",
+   "taxName": "VAT",
+   "standardRate": 13.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Bosnia & Herzegovina",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 17.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Botswana",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 14.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Brazil",
+   "region": "Americas",
+   "taxName": "ICMS (est.)",
+   "standardRate": 18,
+   "reducedRates": [
+    7
+   ],
+   "estimate": true,
+   "note": "State-level ICMS varies ~17-20% plus other levies; national IVA reform phasing in. Treat as estimate.",
+   "valuation": "cif"
+  },
+  {
+   "name": "Bulgaria",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 20.0,
+   "reducedRates": [
+    9.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Cambodia",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 10.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Cameroon",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 19.25,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Canada",
+   "region": "Americas",
+   "taxName": "GST",
+   "standardRate": 5,
+   "reducedRates": [],
+   "estimate": true,
+   "note": "Federal GST 5%; most provinces add PST/HST for combined 5-15% (e.g. ON 13% HST, BC 12%, AB 5%). Enter combined rate if known.",
+   "deMinimis": {
+    "amount": 15,
+    "currency": "USD",
+    "note": "CAD 20 general; CAD 150 duty / CAD 40 tax for US/Mexico couriers (CUSMA)"
+   },
+   "valuation": "fob"
+  },
+  {
+   "name": "Chile",
+   "region": "Americas",
+   "taxName": "VAT",
+   "standardRate": 19.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "China",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 13.0,
+   "reducedRates": [
+    9.0,
+    6.0
+   ],
+   "estimate": true,
+   "note": "13% goods; 9%/6% for some services; 3% small taxpayers",
+   "deMinimis": {
+    "amount": 7,
+    "currency": "USD",
+    "note": "CNY 50 tax exemption; cross-border e-commerce has separate regime"
+   },
+   "valuation": "cif"
+  },
+  {
+   "name": "Colombia",
+   "region": "Americas",
+   "taxName": "VAT",
+   "standardRate": 19.0,
+   "reducedRates": [
+    5.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Costa Rica",
+   "region": "Americas",
+   "taxName": "VAT",
+   "standardRate": 13.0,
+   "reducedRates": [
+    4.0,
+    2.0,
+    1.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Cote d'Ivoire",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 18.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Croatia",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 25.0,
+   "reducedRates": [
+    13.0,
+    5.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Cyprus",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 19.0,
+   "reducedRates": [
+    9.0,
+    5.0,
+    3.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Czech Republic",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 21.0,
+   "reducedRates": [
+    12.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "DR Congo",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 16.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Denmark",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 25.0,
+   "reducedRates": [],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Dominican Republic",
+   "region": "Americas",
+   "taxName": "VAT",
+   "standardRate": 18.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Ecuador",
+   "region": "Americas",
+   "taxName": "VAT",
+   "standardRate": 15.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Egypt",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 14.0,
+   "reducedRates": [
+    5.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "El Salvador",
+   "region": "Americas",
+   "taxName": "VAT",
+   "standardRate": 13.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Equatorial Guinea",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 15.0,
+   "reducedRates": [
+    6.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Estonia",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 24.0,
+   "reducedRates": [
+    13.0,
+    9.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Eswatini",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 15.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Ethiopia",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 15.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Finland",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 25.5,
+   "reducedRates": [
+    13.5,
+    10.0
+   ],
+   "estimate": false,
+   "note": "Reduced 13.5% effective Jan 1, 2026",
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "France",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 20.0,
+   "reducedRates": [
+    10.0,
+    5.5,
+    2.1
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Gabon",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 18.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Georgia",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 18.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Germany",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 19.0,
+   "reducedRates": [
+    7.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Ghana",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 15.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Greece",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 24.0,
+   "reducedRates": [
+    13.0,
+    6.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Guatemala",
+   "region": "Americas",
+   "taxName": "VAT",
+   "standardRate": 12.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Honduras",
+   "region": "Americas",
+   "taxName": "VAT",
+   "standardRate": 15.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Hong Kong",
+   "region": "Asia & Oceania",
+   "taxName": "None",
+   "standardRate": 0,
+   "reducedRates": [],
+   "estimate": false,
+   "note": "No VAT, GST, or sales tax.",
+   "valuation": "cif"
+  },
+  {
+   "name": "Hungary",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 27.0,
+   "reducedRates": [
+    18.0,
+    5.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Iceland",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 24.0,
+   "reducedRates": [
+    11.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "India",
+   "region": "Asia & Oceania",
+   "taxName": "GST",
+   "standardRate": 18.0,
+   "reducedRates": [
+    12.0,
+    5.0,
+    3.0
+   ],
+   "estimate": true,
+   "note": "GST slab depends on product: 5/12/18/28%; 18% shown as common rate",
+   "valuation": "cif"
+  },
+  {
+   "name": "Indonesia",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 11.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Iran",
+   "region": "Middle East",
+   "taxName": "VAT",
+   "standardRate": 9.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Ireland",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 23.0,
+   "reducedRates": [
+    13.5,
+    9.0,
+    4.8
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Israel",
+   "region": "Middle East",
+   "taxName": "VAT",
+   "standardRate": 18.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Italy",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 22.0,
+   "reducedRates": [
+    10.0,
+    5.0,
+    4.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Jamaica",
+   "region": "Americas",
+   "taxName": "GCT",
+   "standardRate": 15.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Japan",
+   "region": "Asia & Oceania",
+   "taxName": "Consumption tax",
+   "standardRate": 10.0,
+   "reducedRates": [
+    8.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 67,
+    "currency": "USD",
+    "note": "JPY 10,000 exemption for duty and consumption tax"
+   },
+   "valuation": "cif"
+  },
+  {
+   "name": "Jordan",
+   "region": "Middle East",
+   "taxName": "GST",
+   "standardRate": 16.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Kazakhstan",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 16.0,
+   "reducedRates": [],
+   "estimate": false,
+   "note": "Raised to 16% Jan 1, 2026",
+   "valuation": "cif"
+  },
+  {
+   "name": "Kenya",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 16.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Kuwait",
+   "region": "Middle East",
+   "taxName": "None",
+   "standardRate": 0,
+   "reducedRates": [],
+   "estimate": false,
+   "note": "No VAT (GCC VAT not yet implemented).",
+   "valuation": "cif"
+  },
+  {
+   "name": "Laos",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 10.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Latvia",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 21.0,
+   "reducedRates": [
+    12.0,
+    5.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Lebanon",
+   "region": "Middle East",
+   "taxName": "VAT",
+   "standardRate": 11.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Lesotho",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 15.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Liechtenstein",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 8.1,
+   "reducedRates": [
+    3.8,
+    2.6
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Lithuania",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 21.0,
+   "reducedRates": [
+    12.0,
+    5.0
+   ],
+   "estimate": false,
+   "note": "Reduced 12% effective Jan 1, 2026",
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Luxembourg",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 17.0,
+   "reducedRates": [
+    14.0,
+    8.0,
+    3.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Madagascar",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 20.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Malawi",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 16.5,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Malaysia",
+   "region": "Asia & Oceania",
+   "taxName": "SST",
+   "standardRate": 10,
+   "reducedRates": [
+    8,
+    6
+   ],
+   "estimate": true,
+   "note": "No VAT/GST. Sales tax 5-10% on goods, service tax 8% (6% some). Estimate.",
+   "valuation": "cif"
+  },
+  {
+   "name": "Malta",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 18.0,
+   "reducedRates": [
+    12.0,
+    7.0,
+    5.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Mauritania",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 16.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Mauritius",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 15.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Mexico",
+   "region": "Americas",
+   "taxName": "VAT",
+   "standardRate": 16.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Monaco",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 20.0,
+   "reducedRates": [
+    10.0,
+    5.5,
+    2.1
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Mongolia",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 10.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Montenegro",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 21.0,
+   "reducedRates": [
+    15.0,
+    7.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Morocco",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 20.0,
+   "reducedRates": [
+    14.0,
+    10.0,
+    7.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Mozambique",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 16.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Myanmar",
+   "region": "Asia & Oceania",
+   "taxName": "Commercial tax",
+   "standardRate": 5,
+   "reducedRates": [],
+   "estimate": false,
+   "note": "No VAT; 5% commercial tax on most goods.",
+   "valuation": "cif"
+  },
+  {
+   "name": "Namibia",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 15.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Nepal",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 13.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Netherlands",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 21.0,
+   "reducedRates": [
+    9.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "New Zealand",
+   "region": "Asia & Oceania",
+   "taxName": "GST",
+   "standardRate": 15.0,
+   "reducedRates": [],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 600,
+    "currency": "USD",
+    "note": "NZD 1,000; GST collected at sale for low-value imports"
+   },
+   "valuation": "cif"
+  },
+  {
+   "name": "Nicaragua",
+   "region": "Americas",
+   "taxName": "VAT",
+   "standardRate": 15.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Nigeria",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 7.5,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "North Macedonia",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 18.0,
+   "reducedRates": [
+    10.0,
+    5.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Norway",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 25.0,
+   "reducedRates": [
+    15.0,
+    12.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 0,
+    "currency": "USD",
+    "note": "NOK 350 threshold abolished; VOEC scheme collects VAT at sale"
+   },
+   "valuation": "cif"
+  },
+  {
+   "name": "Oman",
+   "region": "Middle East",
+   "taxName": "VAT",
+   "standardRate": 5.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Pakistan",
+   "region": "Asia & Oceania",
+   "taxName": "Sales tax",
+   "standardRate": 18,
+   "reducedRates": [],
+   "estimate": false,
+   "note": "18% federal sales tax on goods; services taxed provincially (13-16%). No unified VAT.",
+   "valuation": "cif"
+  },
+  {
+   "name": "Panama",
+   "region": "Americas",
+   "taxName": "VAT",
+   "standardRate": 7.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Papua New Guinea",
+   "region": "Asia & Oceania",
+   "taxName": "GST",
+   "standardRate": 10.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Paraguay",
+   "region": "Americas",
+   "taxName": "VAT",
+   "standardRate": 10.0,
+   "reducedRates": [
+    5.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Peru",
+   "region": "Americas",
+   "taxName": "VAT",
+   "standardRate": 18.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Philippines",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 12.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Poland",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 23.0,
+   "reducedRates": [
+    8.0,
+    5.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Portugal",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 23.0,
+   "reducedRates": [
+    13.0,
+    6.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Qatar",
+   "region": "Middle East",
+   "taxName": "None",
+   "standardRate": 0,
+   "reducedRates": [],
+   "estimate": false,
+   "note": "No VAT (GCC VAT not yet implemented).",
+   "valuation": "cif"
+  },
+  {
+   "name": "Romania",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 21.0,
+   "reducedRates": [
+    11.0,
+    9.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Russia",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 22.0,
+   "reducedRates": [
+    10.0
+   ],
+   "estimate": false,
+   "note": "Raised from 20% to 22% Jan 1, 2026",
+   "deMinimis": {
+    "amount": 215,
+    "currency": "USD",
+    "note": "EAEU: EUR 200 and 31 kg per consignment for personal use"
+   },
+   "valuation": "cif"
+  },
+  {
+   "name": "Rwanda",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 18.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Saudi Arabia",
+   "region": "Middle East",
+   "taxName": "VAT",
+   "standardRate": 15.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Senegal",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 18.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Serbia",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 20.0,
+   "reducedRates": [
+    10.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Seychelles",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 15.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Sierra Leone",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 15.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Singapore",
+   "region": "Asia & Oceania",
+   "taxName": "GST",
+   "standardRate": 9.0,
+   "reducedRates": [],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 300,
+    "currency": "USD",
+    "note": "SGD 400 for duty; GST applies from first dollar (OVR regime)"
+   },
+   "valuation": "cif"
+  },
+  {
+   "name": "Slovakia",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 23.0,
+   "reducedRates": [
+    19.0,
+    5.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Slovenia",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 22.0,
+   "reducedRates": [
+    9.5,
+    5.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "South Africa",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 15.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "South Korea",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 10.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Spain",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 21.0,
+   "reducedRates": [
+    10.0,
+    4.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Sri Lanka",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 18.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Sweden",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 25.0,
+   "reducedRates": [
+    12.0,
+    6.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 163,
+    "currency": "USD",
+    "note": "EU: EUR 150 duty exemption being phased out - temporary EUR 3 flat duty on low-value parcels from Jul 1, 2026; import VAT due from EUR 0 (IOSS)"
+   },
+   "eu": true,
+   "valuation": "cif"
+  },
+  {
+   "name": "Switzerland",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 8.1,
+   "reducedRates": [
+    3.8,
+    2.6
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 0,
+    "currency": "USD",
+    "note": "No general de minimis; VAT waived only if tax due < CHF 5"
+   },
+   "valuation": "cif"
+  },
+  {
+   "name": "Taiwan",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 5.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Tajikistan",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 14.0,
+   "reducedRates": [
+    10.0,
+    7.0,
+    5.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Tanzania",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 18.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Thailand",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 7.0,
+   "reducedRates": [],
+   "estimate": false,
+   "note": "Temporarily reduced from 10% (extended repeatedly)",
+   "deMinimis": {
+    "amount": 0,
+    "currency": "USD",
+    "note": "THB 1,500 exemption abolished Jan 2026"
+   },
+   "valuation": "cif"
+  },
+  {
+   "name": "Trinidad & Tobago",
+   "region": "Americas",
+   "taxName": "VAT",
+   "standardRate": 12.5,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Tunisia",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 19.0,
+   "reducedRates": [
+    13.0,
+    7.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Turkiye (Turkey)",
+   "region": "Middle East",
+   "taxName": "VAT",
+   "standardRate": 20.0,
+   "reducedRates": [
+    10.0,
+    1.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Uganda",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 18.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Ukraine",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 20.0,
+   "reducedRates": [
+    14.0,
+    7.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "United Arab Emirates",
+   "region": "Middle East",
+   "taxName": "VAT",
+   "standardRate": 5.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "United Kingdom",
+   "region": "Europe",
+   "taxName": "VAT",
+   "standardRate": 20.0,
+   "reducedRates": [
+    5.0
+   ],
+   "estimate": false,
+   "deMinimis": {
+    "amount": 169,
+    "currency": "USD",
+    "note": "\u00a3135 duty de minimis (import VAT still due); abolition announced for Oct 2028"
+   },
+   "valuation": "cif"
+  },
+  {
+   "name": "United States",
+   "region": "Americas",
+   "taxName": "Sales tax",
+   "standardRate": 0,
+   "reducedRates": [],
+   "estimate": true,
+   "note": "No federal VAT. State + local sales tax roughly 0-10.25% (e.g. CA ~7.25%+, OR/MT/NH/DE 0%). Enter your state rate below.",
+   "deMinimis": {
+    "amount": 0,
+    "currency": "USD",
+    "note": "De minimis SUSPENDED since Aug 2025 - all imports dutiable regardless of value (CBP, confirmed Jun 2026)"
+   },
+   "valuation": "fob"
+  },
+  {
+   "name": "Uruguay",
+   "region": "Americas",
+   "taxName": "VAT",
+   "standardRate": 22.0,
+   "reducedRates": [
+    10.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Uzbekistan",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 12.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Vanuatu",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 15.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Venezuela",
+   "region": "Americas",
+   "taxName": "VAT",
+   "standardRate": 16.0,
+   "reducedRates": [
+    8.0
+   ],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Vietnam",
+   "region": "Asia & Oceania",
+   "taxName": "VAT",
+   "standardRate": 10.0,
+   "reducedRates": [
+    5.0
+   ],
+   "estimate": false,
+   "note": "Temporarily reduced to 8% for many goods (check current status)",
+   "valuation": "cif"
+  },
+  {
+   "name": "Yemen",
+   "region": "Middle East",
+   "taxName": "VAT",
+   "standardRate": 5.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Zambia",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 16.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  },
+  {
+   "name": "Zimbabwe",
+   "region": "Africa",
+   "taxName": "VAT",
+   "standardRate": 15.0,
+   "reducedRates": [],
+   "estimate": false,
+   "valuation": "cif"
+  }
+ ],
+ "origin": {
+  "country": "Pakistan",
+  "note": "Rates and schemes below assume goods of Pakistani origin (sportswear/apparel exporter)."
+ },
+ "schemes": [
+  {
+   "id": "eu-gsp-plus",
+   "name": "EU GSP+",
+   "appliesTo": "eu",
+   "prefDuty": 0,
+   "status": "Pakistan is a GSP+ beneficiary - apparel & textiles enter the EU duty-free and quota-free (>90% of Pakistan's EU shipments enter at zero tariff). Extended through at least 2027, subject to compliance monitoring.",
+   "requires": "REX registration + statement on origin on the invoice; GSP rules of origin."
+  },
+  {
+   "id": "uk-dcts",
+   "name": "UK DCTS - Enhanced Preferences",
+   "appliesTo": "United Kingdom",
+   "prefDuty": 0,
+   "status": "Pakistan is in the DCTS Enhanced tier: 0% duty on apparel (vs 12% MFN). Generous rules of origin - single-stage transformation qualifies most garments.",
+   "requires": "Exporter origin declaration; DCTS rules of origin."
+  },
+  {
+   "id": "ch-zero",
+   "name": "Switzerland - zero industrial tariffs",
+   "appliesTo": "Switzerland",
+   "prefDuty": 0,
+   "status": "Switzerland unilaterally abolished ALL industrial tariffs (incl. apparel) from Jan 1, 2024 - 0% duty from any origin. Liechtenstein is in the same customs area.",
+   "requires": "Nothing - no certificate of origin needed for duty purposes."
+  },
+  {
+   "id": "li-zero",
+   "name": "Switzerland-Liechtenstein customs area",
+   "appliesTo": "Liechtenstein",
+   "prefDuty": 0,
+   "status": "Same as Switzerland: industrial tariffs abolished since Jan 1, 2024.",
+   "requires": "Nothing."
+  },
+  {
+   "id": "us-s122",
+   "name": "US - Section 122 surcharge (no preference)",
+   "appliesTo": "United States",
+   "surcharge": 10,
+   "status": "No preference for Pakistani apparel. Since Feb 2026 a flat 10% Section 122 surcharge applies on top of normal MFN duty (replaced the 29% IEEPA reciprocal tariff struck down by the Supreme Court). Situation is volatile - re-check before quoting.",
+   "requires": null
+  },
+  {
+   "id": "cpfta",
+   "name": "China-Pakistan FTA (CPFTA Phase II/III)",
+   "appliesTo": "China",
+   "prefDuty": null,
+   "status": "Many tariff lines (incl. some textiles/apparel) are zero or reduced under CPFTA; ~700 more items under discussion in Phase III (2026). Coverage is line-by-line - verify your exact HS code.",
+   "requires": "CPFTA Certificate of Origin (Form for China-Pakistan FTA)."
+  },
+  {
+   "id": "pk-lk",
+   "name": "Pakistan-Sri Lanka FTA",
+   "appliesTo": "Sri Lanka",
+   "prefDuty": null,
+   "status": "Apparel enters duty-free under an annual quota (approx. 3 million pieces); outside quota normal duty applies. Verify quota availability.",
+   "requires": "FTA Certificate of Origin."
+  },
+  {
+   "id": "mpcepa",
+   "name": "Pakistan-Malaysia CEPA",
+   "appliesTo": "Malaysia",
+   "prefDuty": null,
+   "status": "Preferential rates on many lines under MPCEPA - check your HS line (note Malaysia has no import duty on many apparel lines anyway; SST applies).",
+   "requires": "MPCEPA Certificate of Origin."
+  },
+  {
+   "id": "safta",
+   "name": "SAFTA (South Asia)",
+   "appliesTo": [
+    "Bangladesh",
+    "Nepal",
+    "Bhutan",
+    "Afghanistan",
+    "India"
+   ],
+   "prefDuty": null,
+   "status": "SAFTA reduces tariffs among SAARC members, BUT textiles/apparel are commonly on sensitive lists (excluded). India-Pakistan trade is suspended. Verify per line.",
+   "requires": "SAFTA Certificate of Origin."
+  },
+  {
+   "id": "ptas",
+   "name": "Bilateral PTAs - Iran, Indonesia, Mauritius, Turkiye",
+   "appliesTo": [
+    "Iran",
+    "Indonesia",
+    "Mauritius",
+    "Turkiye (Turkey)"
+   ],
+   "prefDuty": null,
+   "status": "Pakistan has limited-coverage preferential trade agreements with these countries. Apparel coverage is line-by-line (Turkiye's agreement covers limited items; its GSP excludes most textiles). Verify per HS code.",
+   "requires": "Respective PTA Certificate of Origin."
+  },
+  {
+   "id": "no-gsp",
+   "name": "Norway GSP",
+   "appliesTo": "Norway",
+   "prefDuty": null,
+   "status": "Pakistan is a beneficiary of Norway's GSP - reduced (not always zero) duty on many textile lines. Verify per HS code.",
+   "requires": "REX / origin documentation."
+  },
+  {
+   "id": "jp-gsp",
+   "name": "Japan GSP",
+   "appliesTo": "Japan",
+   "prefDuty": null,
+   "status": "Pakistan is a Japan GSP beneficiary but many textile/apparel lines are excluded or have ceilings. Verify per HS code.",
+   "requires": "Form A / origin documentation."
+  },
+  {
+   "id": "ca-gpt",
+   "name": "Canada GPT - apparel excluded",
+   "appliesTo": "Canada",
+   "prefDuty": null,
+   "status": "Pakistan is GPT-eligible but apparel is EXCLUDED from GPT - full MFN duty (~18%) applies on garments.",
+   "requires": null
+  },
+  {
+   "id": "au-dcs",
+   "name": "Australia DCS",
+   "appliesTo": "Australia",
+   "prefDuty": null,
+   "status": "Australia's developing-country preferences give little on apparel - expect the 5% general rate. GST 10% applies.",
+   "requires": null
+  }
+ ],
+ "hsCodes": [
+  {
+   "code": "6109.90",
+   "desc": "T-shirts, singlets & jerseys - knitted, polyester/man-made fibres (sublimated shirts)",
+   "duty": {
+    "eu": 12,
+    "uk": 12,
+    "us": 32,
+    "ca": 18,
+    "au": 5,
+    "default": 15,
+    "cn": 16
+   }
+  },
+  {
+   "code": "6109.10",
+   "desc": "T-shirts & singlets - knitted, cotton",
+   "duty": {
+    "eu": 12,
+    "uk": 12,
+    "us": 16.5,
+    "ca": 18,
+    "au": 5,
+    "default": 15,
+    "cn": 16
+   }
+  },
+  {
+   "code": "6110.30",
+   "desc": "Hoodies, sweatshirts & pullovers - knitted, man-made fibres",
+   "duty": {
+    "eu": 12,
+    "uk": 12,
+    "us": 32,
+    "ca": 18,
+    "au": 5,
+    "default": 15,
+    "cn": 16
+   }
+  },
+  {
+   "code": "6103.43",
+   "desc": "Men's/boys' shorts & trousers - knitted, synthetic fibres",
+   "duty": {
+    "eu": 12,
+    "uk": 12,
+    "us": 28.2,
+    "ca": 18,
+    "au": 5,
+    "default": 15,
+    "cn": 16
+   }
+  },
+  {
+   "code": "6104.63",
+   "desc": "Women's/girls' shorts, trousers & leggings - knitted, synthetic fibres",
+   "duty": {
+    "eu": 12,
+    "uk": 12,
+    "us": 28.2,
+    "ca": 18,
+    "au": 5,
+    "default": 15,
+    "cn": 16
+   }
+  },
+  {
+   "code": "6112.12",
+   "desc": "Tracksuits - knitted, synthetic fibres",
+   "duty": {
+    "eu": 12,
+    "uk": 12,
+    "us": 28.2,
+    "ca": 18,
+    "au": 5,
+    "default": 15,
+    "cn": 16
+   }
+  },
+  {
+   "code": "6114.30",
+   "desc": "Other knitted garments, man-made fibres (base layers, bibs, singlets nes)",
+   "duty": {
+    "eu": 12,
+    "uk": 12,
+    "us": 14.9,
+    "ca": 18,
+    "au": 5,
+    "default": 15,
+    "cn": 16
+   }
+  },
+  {
+   "code": "6112.31",
+   "desc": "Men's/boys' swimwear - knitted, synthetic fibres",
+   "duty": {
+    "eu": 12,
+    "uk": 12,
+    "us": 25.9,
+    "ca": 18,
+    "au": 5,
+    "default": 15,
+    "cn": 16
+   }
+  },
+  {
+   "code": "6115.96",
+   "desc": "Socks & hosiery - knitted, synthetic fibres",
+   "duty": {
+    "eu": 12,
+    "uk": 12,
+    "us": 14.6,
+    "ca": 18,
+    "au": 5,
+    "default": 12,
+    "cn": 16
+   }
+  },
+  {
+   "code": "6116.93",
+   "desc": "Gloves & mittens - knitted, synthetic fibres (sports gloves)",
+   "duty": {
+    "eu": 9,
+    "uk": 9,
+    "us": 18.6,
+    "ca": 18,
+    "au": 5,
+    "default": 12,
+    "cn": 16
+   }
+  },
+  {
+   "code": "6201.40",
+   "desc": "Men's/boys' jackets, anoraks & windbreakers - woven, man-made fibres",
+   "duty": {
+    "eu": 12,
+    "uk": 12,
+    "us": 27.7,
+    "ca": 18,
+    "au": 5,
+    "default": 15,
+    "cn": 16
+   }
+  },
+  {
+   "code": "6202.40",
+   "desc": "Women's/girls' jackets & anoraks - woven, man-made fibres",
+   "duty": {
+    "eu": 12,
+    "uk": 12,
+    "us": 27.7,
+    "ca": 18,
+    "au": 5,
+    "default": 15,
+    "cn": 16
+   }
+  },
+  {
+   "code": "6203.43",
+   "desc": "Men's/boys' shorts & trousers - woven, synthetic fibres",
+   "duty": {
+    "eu": 12,
+    "uk": 12,
+    "us": 27.9,
+    "ca": 18,
+    "au": 5,
+    "default": 15,
+    "cn": 16
+   }
+  },
+  {
+   "code": "6204.63",
+   "desc": "Women's/girls' shorts & trousers - woven, synthetic fibres",
+   "duty": {
+    "eu": 12,
+    "uk": 12,
+    "us": 28.6,
+    "ca": 18,
+    "au": 5,
+    "default": 15,
+    "cn": 16
+   }
+  },
+  {
+   "code": "6205.30",
+   "desc": "Men's shirts - woven, man-made fibres",
+   "duty": {
+    "eu": 12,
+    "uk": 12,
+    "us": 26,
+    "ca": 18,
+    "au": 5,
+    "default": 15,
+    "cn": 16
+   }
+  },
+  {
+   "code": "6211.33",
+   "desc": "Track suits & other garments - woven, man-made fibres (warm-ups)",
+   "duty": {
+    "eu": 12,
+    "uk": 12,
+    "us": 16,
+    "ca": 18,
+    "au": 5,
+    "default": 15,
+    "cn": 16
+   }
+  },
+  {
+   "code": "6505.00",
+   "desc": "Caps & hats - knitted or from textile fabric",
+   "duty": {
+    "eu": 2.7,
+    "uk": 2,
+    "us": 7,
+    "ca": 15.5,
+    "au": 5,
+    "default": 10,
+    "cn": 14
+   }
+  },
+  {
+   "code": "4203.21",
+   "desc": "Sports gloves - leather (goalkeeper, batting)",
+   "duty": {
+    "eu": 9,
+    "uk": 9,
+    "us": 4.9,
+    "ca": 15.5,
+    "au": 5,
+    "default": 10,
+    "cn": 14
+   }
+  },
+  {
+   "code": "OTHER",
+   "desc": "Other / not listed - enter duty manually",
+   "duty": {
+    "eu": 12,
+    "uk": 12,
+    "us": 20,
+    "ca": 18,
+    "au": 5,
+    "default": 12,
+    "cn": 16
+   }
+  }
+ ]
+}

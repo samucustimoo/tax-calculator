@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: tax-duty-calculator
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_RATES_URL
+        sync: false
