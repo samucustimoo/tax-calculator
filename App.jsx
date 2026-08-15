@@ -42,6 +42,10 @@ export default function App() {
   const [customRate, setCustomRate] = useState('')
   const [shipping, setShipping] = useState('')
   const [weight, setWeight] = useState('')
+  const [boxL, setBoxL] = useState('')
+  const [boxW, setBoxW] = useState('')
+  const [boxH, setBoxH] = useState('')
+  const [boxes, setBoxes] = useState('1')
   const [ratePerKg, setRatePerKg] = useState('11')
   const [hsCode, setHsCode] = useState('6109.90')
   const [applyScheme, setApplyScheme] = useState(true)
@@ -68,7 +72,14 @@ export default function App() {
       : parseFloat(rateChoice)
 
   const amt = parseFloat(amount) || 0
-  const kg = parseFloat(weight) || 0
+  const grossKg = parseFloat(weight) || 0
+  const nBoxes = Math.max(1, parseInt(boxes) || 1)
+  const dimL = parseFloat(boxL) || 0
+  const dimW = parseFloat(boxW) || 0
+  const dimH = parseFloat(boxH) || 0
+  const volKg = (dimL * dimW * dimH / 5000) * nBoxes
+  const kg = Math.max(grossKg, volKg)
+  const usesVol = volKg > grossKg && volKg > 0
   const kgRate = parseFloat(ratePerKg) || 0
   const freight = kg * kgRate
   const ship = shipping !== '' && !isNaN(parseFloat(shipping)) ? parseFloat(shipping) : freight
@@ -160,9 +171,21 @@ export default function App() {
               </select>
             </label>
             <label className="field">
-              <span>Weight (kg)</span>
+              <span>Gross weight (kg)</span>
               <input type="number" min="0" step="0.1" placeholder="e.g. 25" value={weight}
                 onChange={e => setWeight(e.target.value)} />
+            </label>
+            <label className="field" style={{ flex: '1.5 1 240px' }}>
+              <span>Box dimensions L x W x H (cm, per box)</span>
+              <span style={{ display: 'flex', gap: '6px' }}>
+                <input type="number" min="0" placeholder="L" value={boxL} onChange={e => setBoxL(e.target.value)} style={{ width: '33%' }} />
+                <input type="number" min="0" placeholder="W" value={boxW} onChange={e => setBoxW(e.target.value)} style={{ width: '33%' }} />
+                <input type="number" min="0" placeholder="H" value={boxH} onChange={e => setBoxH(e.target.value)} style={{ width: '33%' }} />
+              </span>
+            </label>
+            <label className="field" style={{ flex: '0 1 110px' }}>
+              <span>Boxes</span>
+              <input type="number" min="1" step="1" value={boxes} onChange={e => setBoxes(e.target.value)} />
             </label>
             <label className="field">
               <span>Freight rate (USD per kg)</span>
@@ -180,6 +203,14 @@ export default function App() {
                 value={customDuty} onChange={e => setCustomDuty(e.target.value)} />
             </label>
           </div>
+
+          {(grossKg > 0 || volKg > 0) && (
+            <p className={'note' + (usesVol ? '' : ' ok')}>
+              Chargeable weight: <strong>{kg.toFixed(1)} kg</strong> - {usesVol
+                ? 'DIMENSIONAL weight applies (' + dimL + ' x ' + dimW + ' x ' + dimH + ' / 5000 x ' + nBoxes + ' box' + (nBoxes > 1 ? 'es' : '') + ' = ' + volKg.toFixed(1) + ' kg > gross ' + grossKg.toFixed(1) + ' kg)'
+                : 'gross weight applies (' + grossKg.toFixed(1) + ' kg' + (volKg > 0 ? ' > dimensional ' + volKg.toFixed(1) + ' kg' : '') + ')'}
+            </p>
+          )}
 
           {scheme && (
             <div className={'scheme ' + (scheme.prefDuty === 0 ? 'scheme-good' : scheme.surcharge ? 'scheme-bad' : 'scheme-check')}>
@@ -210,7 +241,7 @@ export default function App() {
           <div className="results">
             {ship > 0 && (
               <div className="row">
-                <span>Freight{shipping === '' && kg > 0 ? ' (' + kg + ' kg x ' + fmt(kgRate) + '/kg)' : ' (manual)'}</span>
+                <span>Freight{shipping === '' && kg > 0 ? ' (' + kg.toFixed(1) + ' kg chargeable x ' + fmt(kgRate) + '/kg)' : ' (manual)'}</span>
                 <span>{fmt(ship)}</span>
               </div>
             )}
